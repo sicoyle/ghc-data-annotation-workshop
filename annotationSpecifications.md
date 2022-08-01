@@ -1,4 +1,4 @@
-# Supporting document for data annotation specifications
+# Data annotation specifications
 
 ## Specifications to guide annotations for a person detection project
 

@@ -1,5 +1,5 @@
-# Supporting document for common data annotation Q&A
+# Common data annotation Q&A
 
-## Questions specific to person detection data annotation projects
+## Questions specific to person detection data annotations
 
 TODO
