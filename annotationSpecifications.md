@@ -19,7 +19,7 @@ Downsampling an image in particular is where you reduce the number of pixels to 
 This is helpful when dealing with resource constraints when using large amounts of input data. 
 
 - Original videos may be 4k at 60 Hz.
-- Videos should be downsampled to 1080 at 30Hz.
+- Videos should be downsampled to 1080p at 30Hz.
 - Annotations for every frame are required.
 Although, interpolation is allowed (ex: annotate every 10 frames and interpolate the rest).
 
