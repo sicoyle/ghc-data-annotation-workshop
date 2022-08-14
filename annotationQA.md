@@ -6,7 +6,7 @@
 
 All people and faces should be annotated.
 However, `ignore regions` may be defined for regions of the image where people are too small.
-`Ignore regions/zones` are common to have depending on your footage and depend on your use case.
+`Ignore regions/zones` are common to have depending on your footage use case.
 
 #### TODO(@Sam): bring in picture here
 
