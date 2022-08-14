@@ -1,8 +1,8 @@
 # 2022 GHC Level Up Lab
 ## Use Open Source Tool to Simplify & Automate Video/Image Labeling Process
+### With Samantha Coyle & Neethu Elizabeth Simon
 
 ### Overview
-
 Computer Vision Annotation Tool, or [CVAT](https://cvat.org/auth/login) for short,
 is an Open Source tool used for labeling image and video data for computer vision algorithms.
 It is one of the most popular Open Source annotation tools out there and makes video annotations easier and faster.
@@ -23,14 +23,15 @@ Dare to strike gold and derive meaning out of your own raw data in this workshop
 5. Q & A - 5 minutes
 
 ### Technical Requirements
-
 1. Laptop & charger
 2. Internet access
 
-### Takeaways
+### Additional Resources
+Additional workshop resources and links may be found [here](./resources.md).
 
+### Takeaways
 1. Understand the challenges and basics of performing successful data annotations for visual data.
 2. Gain useful insights into how a professional data annotation team performs, 
 questions they ask as they work through the data annotation process,
 and best practices they abide by.
-3. Engage and connect through teamworking skills and workshop interaction while exploring new areas of expertise with new people.
+3. Engage and connect through team working skills and workshop interaction while exploring new areas of expertise with new people.
