@@ -17,10 +17,12 @@ Dare to strike gold and derive meaning out of your own raw data in this workshop
 
 ### Agenda
 1. Intro - 5 minutes
-2. Review supporting docs - 10 minutes
-3. Perform annotations - 35 minutes
-4. Conclusion - 5 minutes
-5. Q & A - 5 minutes
+2. Walk through setting up CVAT project - 10 minutes
+3. Review supporting docs 1 - 5 minutes
+4. Review supporting doc 2 - 5 minutes
+5. Perform annotations - 30 minutes
+6. Conclusion - 5 minutes
+7. Q & A - throughout
 
 ### Technical Requirements
 1. Laptop & charger
