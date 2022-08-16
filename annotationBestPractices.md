@@ -1,6 +1,4 @@
-# Common data annotation Q&A
-
-## Questions specific to person detection data annotations
+# Data Annotation Best Practices
 
 1. How big do people have to be to require annotating?
 
@@ -34,7 +32,7 @@ Ears are `not` incorporated into the box.
 
 `Identity` is not personally identifiable information in the way one might initially think.
 It does **not** mean name, DOB, address, etc.
-`Identity` in this sense means a means of which you can track the same person across different frames.
+`Identity` in this sense refers to a means to track the same person across different frames.
 #### TODO(@Sam): bring in more details here referring to picture I bring in
 
 #### TODO(@Sam): bring in picture here
