@@ -1,6 +1,6 @@
 # 2022 GHC Level Up Lab
 ## Use Open Source Tool to Simplify & Automate Video/Image Labeling Process
-### With Samantha Coyle & Neethu Elizabeth Simon
+### With Samantha Coyle & Neethu Elizabeth Simon, Intel Corporation
 
 ### Overview
 Computer Vision Annotation Tool, or [CVAT](https://cvat.org/auth/login) for short,
@@ -24,7 +24,7 @@ Dare to strike gold and derive meaning out of your own raw data in this workshop
 6. Conclusion - 5 minutes
 7. Q & A - throughout
 
-### Technical Requirements
+### Workshop Logistics
 1. Laptop & charger
 2. Internet access
 
@@ -36,4 +36,4 @@ Additional workshop resources and links may be found [here](./resources.md).
 2. Gain useful insights into how a professional data annotation team performs, 
 questions they ask as they work through the data annotation process,
 and best practices they abide by.
-3. Engage and connect through team working skills and workshop interaction while exploring new areas of expertise with new people.
+3. Engage and connect through team working skills and workshop interactions while exploring new areas of expertise with new people.
