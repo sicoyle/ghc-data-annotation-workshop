@@ -83,7 +83,7 @@ This is where you will use the supporting documents to perform your data annotat
 Feel free to ask questions as needed during this time, and collaborate with those around you as you progress.
     ![Start Annotations](./assets/screenshots/startAnnotations.jpg)
 
-## Steps to follow to perform data annotations for frame 0
+## Steps to follow to perform data annotations
 1. Hover over the rectangle shape on the left navigation bar, and select `Track`.
     ![Bounding Box](./assets/screenshots/personDetectionBox1.jpg)
 > Note: We are annotating a video file.
@@ -139,6 +139,3 @@ and select to `Export task dataset`.
 6. Fill in the export details following the image below.
     ![Export Details](./assets/screenshots/exportDetails.jpg)
 > Note: You will now see the annotations downloaded to a zip folder in your Downloads folder.
-
-#### TODO: Add common gotcha's - save btw frames, how to switch outside property, N shortcut, edge cases: ppl outside of frame or partial ppl, last frame is not mult. of 10 
-
