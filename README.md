@@ -31,6 +31,12 @@ Dare to strike gold and derive meaning out of your own raw data in this workshop
 ### Additional Resources
 Additional workshop resources and links may be found [here](./resources.md).
 
+### Annotation Steps
+
+1. Read [Annotations Specifications supporting documentation](./annotationSpecifications.md).
+2. Read [Annotations QA supporting documentation](./annotationQA.md).
+3. Follow the [Annotations Steps](./annotationSteps.md).
+
 ### Takeaways
 1. Understand the challenges and basics of performing successful data annotations for visual data.
 2. Gain useful insights into how a professional data annotation team performs, 
