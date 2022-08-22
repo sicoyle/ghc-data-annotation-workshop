@@ -17,11 +17,12 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
         Please disregard and close the note.
       ![CVAT Notice](./assets/screenshots/notice.jpg)
 2. Use the top navigation bar to click `Projects`.
+    ![CVAT Project Tab](./assets/screenshots/projects.jpg)
 3. Click the blue `+` sign to create a new project.
-      ![CVAT Project](./assets/screenshots/createProject.jpg)
+    ![CVAT Project](./assets/screenshots/createProject.jpg)
 4. Copy the details from the image below to fill out the project to be created. 
       For the raw label data, copy/paste the data snipped below the picture.
-   ![CVAT Project](./assets/screenshots/project.jpg)
+   ![CVAT Project](./assets/screenshots/projectDetails.jpg)
 
     Raw Label data to copy/paste into the CVAT UI: 
 ```json
@@ -54,34 +55,33 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
         ]
       }
     ]
-  },
-  {
-    "name": "Face",
-    "id": 1205813,
-    "color": "#90e8ce",
-    "attributes": []
   }
 ]
 ```
 > Note: For more information on the labels used for the workshop, please refer to the [Annotation Specifications Doc](./annotationSpecifications.md).
 
 5. Click on your newly created project and click on the blue `+` sign at the bottom right of it to create a new `task` for it.
+    ![Create Task](./assets/screenshots/createTask.jpg)
 6. Create your tasks copying the details below and click submit on your task:
     ![CVAT Task](./assets/screenshots/task.jpg)
     > Note: The test footage may be found [here](./assets/video/workshopFootage.mp4).
       You will use this video file for your annotation sample data.
       It may take a few seconds-minutes to upload the video footage pending the network bandwidth.
 7. Click on the `Projects` tab and select the project you created.
-8. You should now see the `task` you just created.
+    ![Select Project](./assets/screenshots/selectProject.jpg)
+You should now see the `task` you just created.
 If this `task` does not show up, then allow a bit more time for the video to upload. 
-9. Click on the `Open` button next to your newly created `task`.
+8. Click on the `Open` button next to your newly created `task`.
 You should now see a `job` created by default for your `task`.
-10. Under the `job` details, assign the `job` to your username as seen below.
-    ![CVAT Job](./assets/screenshots/jobDetails.jpg)
-11. Click on the `job #` that was created above.
+   ![Open task](./assets/screenshots/openTask.jpg)
+9. Under the `job` details, assign the `job` to your username as seen below.
+   ![CVAT Job](./assets/screenshots/jobDetails.jpg)
+10. Click on the `job #` that was created above.
 This will take you to a screen where you can start data annotations.
 This is where you will use the supporting documents to perform your data annotations.
 Feel free to ask questions as needed during this time, and collaborate with those around you as you progress.
+    ![Start Annotations](./assets/screenshots/startAnnotations.jpg)
+    ![Start Annotations](./assets/screenshots/startAnnotations.jpg)
 
 
 ## Steps to follow to perform data annotations for frame 0
