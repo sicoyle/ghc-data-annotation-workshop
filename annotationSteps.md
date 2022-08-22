@@ -86,14 +86,14 @@ Feel free to ask questions as needed during this time, and collaborate with thos
 
 ## Steps to follow to perform data annotations for frame 0
 1. Hover over the rectangle shape on the left navigation bar, and select `Track`.
-    [!Bounding Box](./assets/personDetectionBox1.jpg)
+    ![Bounding Box](./assets/personDetectionBox1.jpg)
 > Note: We are annotating a video file.
 > This means we will want to track people as they move across the frame throughout the video.
 2. Place your cursor at the top left of the person and click.
 This should create the start of your bounding box.
 Now go to the bottom right of the person to complete your person bounding box,
 and click when you have included the bottom-rightmost part of your person.
-   [!Bounding Box Creation](./assets/personDetectionBox2.jpg)
+   ![Bounding Box Creation](./assets/personDetectionBox2.jpg)
 3. In the right most part of the CVAT UI, under the `Objects` tab, 
 you will leave `Identity` as `1`, and `Occlusion` as `0` as this is the first person we are creating a bounding box around.
 This person also has no occlusions impacting the bounding box.
@@ -102,15 +102,15 @@ This person also has no occlusions impacting the bounding box.
 > Note: Since Person 2 is seated and we only see ~50% of their body, 
 > we will mark their `Occlusion` field as 1.
 > Remember to refer to the [Annotation Specifications](./annotationSpecifications.md) as needed to adjust your annotations based on occlusions.
-    [!Person 2](./assets/person2.jpg)
+    ![Person 2](./assets/person2.jpg)
 
 When you are done annotating frame 0, it should look like the below picture.
-    [!Frame 0](./assets/frame0.jpg)
+    ![Frame 0](./assets/frame0.jpg)
 
 6. Now that all people in the frame are annotated, click `Save` to save the current annotations.
-   [!Save](./assets/save.jpg)
+   ![Save](./assets/save.jpg)
 7. Click on the double right arrow to increment the frame count by 10.
-    [!Frame 10](./assets/frame10.jpg)
+    ![Frame 10](./assets/frame10.jpg)
 > Note: You will see that the initial bounding boxes are no longer properly placed.
 > The bounding boxes size and placement will need to be adjusted since this is a different frame,
 > and people have moved.
@@ -118,26 +118,26 @@ When you are done annotating frame 0, it should look like the below picture.
 > The interpolation feature allows annotators to annotate key frames,
 > and then the frames between them will be interpolated automatically.
 > Each frame annotated is automatically denoted as a key frame with the star shown below.
-> [!Star](./assets/star.jpg)
+> ![Star](./assets/star.jpg)
 
 8. Adjust the bounding boxes for the frame so that they look similar to the picture below.
-    [!Frame 10 Annotated](./assets/frame10Annotated.jpg)
+    ![Frame 10 Annotated](./assets/frame10Annotated.jpg)
 9. Continue steps 1-7 for every 10 frames of the video annotated each person in the frame.
 
 ## Steps to follow once frames have been annotated
 1. Click `Tasks`.
-    [!Tasks](./assets/tasks.jpg)
+    ![Tasks](./assets/tasks.jpg)
 2. Open the `Annotate workshop footage` task.
-    [!Open task](./assets/openTask.jpg)
+    ![Open task](./assets/openTask.jpg)
 3. Update the `Job Stage` to `validation`.
-   [!Validation](./assets/validation.jpg)
+   ![Validation](./assets/validation.jpg)
 4. Click `Tasks` again.
-    [!Tasks](./assets/tasks.jpg)
+    ![Tasks](./assets/tasks.jpg)
 5. Click on the three dots at the bottom right of the workshop task,
 and select to `Export task dataset`.
-    [!Export](./assets/export.jpg)
+    ![Export](./assets/export.jpg)
 6. Fill in the export details following the image below.
-    [!Export Details](./assets/exportDetails.jpg)
+    ![Export Details](./assets/exportDetails.jpg)
 > Note: You will now see the annotations downloaded to a zip folder in your Downloads folder.
 
 #### TODO: Add common gotcha's - save btw frames, how to switch outside property, N shortcut, edge cases: ppl outside of frame or partial ppl, last frame is not mult. of 10 
