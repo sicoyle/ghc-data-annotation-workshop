@@ -11,7 +11,7 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
 
 ![CVAT Hierarchy](./assets/screenshots/hierarchy.jpg)
 
-## Steps to follow
+## Steps to follow to create an annotation project
 1. Create an account and login at [cvat.org](https://cvat.org/auth/login).
     > Note: You may see a notification pop up that looks like the image below.
         Please disregard and close the note.
@@ -23,7 +23,7 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
       For the raw label data, copy/paste the data snipped below the picture.
    ![CVAT Project](./assets/screenshots/project.jpg)
 
-    Raw Label data to copy/paste into CVAT UI: 
+    Raw Label data to copy/paste into the CVAT UI: 
 ```json
 [
   {
@@ -71,23 +71,59 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
     > Note: The test footage may be found [here](./assets/video/workshopFootage.mp4).
       You will use this video file for your annotation sample data.
       It may take a few seconds-minutes to upload the video footage pending the network bandwidth.
-7Click on the `Projects` tab and select the project you created.
-7. You should now see the `task` you just created.
+7. Click on the `Projects` tab and select the project you created.
+8. You should now see the `task` you just created.
 If this `task` does not show up, then allow a bit more time for the video to upload. 
-8. Click on the `Open` button next to your newly created `task`.
+9. Click on the `Open` button next to your newly created `task`.
 You should now see a `job` created by default for your `task`.
-9. Under the `job` details, assign the `job` to your username as seen below.
-   ![CVAT Job](./assets/screenshots/jobDetails.jpg)
-10. Click on the `job #` that was created above.
+10. Under the `job` details, assign the `job` to your username as seen below.
+    ![CVAT Job](./assets/screenshots/jobDetails.jpg)
+11. Click on the `job #` that was created above.
 This will take you to a screen where you can start data annotations.
 This is where you will use the supporting documents to perform your data annotations.
 Feel free to ask questions as needed during this time, and collaborate with those around you as you progress.
 
 
-#### TODO: Details on how to perform data annotations for person bounding boxes
-#### TODO: Details on how to perform data annotations for person identity
-#### TODO: Details on how to perform data annotations for person occlusions
-#### TODO: Details on how to perform data annotations for face bounding boxes
+## Steps to follow to perform data annotations for frame 0
+1. Hover over the rectangle shape on the left navigation bar, and select `Track`.
+    [!Bounding Box](./assets/personDetectionBox1.jpg)
+> Note: We are annotating a video file.
+> This means we will want to track people as they move across the frame throughout the video.
+2. Place your cursor at the top left of the person and click.
+This should create the start of your bounding box.
+Now go to the bottom right of the person to complete your person bounding box,
+and click when you have included the bottom-rightmost part of your person.
+   [!Bounding Box Creation](./assets/personDetectionBox2.jpg)
+3. In the right most part of the CVAT UI, under the `Objects` tab, 
+you will leave `Identity` as `1`, and `Occlusion` as `0` as this is the first person we are creating a bounding box around.
+This person also has no occlusions impacting the bounding box.
+4. Once you have completed annotations for one person, then move onto the next person in the frame.
+5. Repeat steps 1-3 for each person going left to right in the frame.
+> Note: Since Person 2 is seated and we only see ~50% of their body, 
+> we will mark their `Occlusion` field as 1.
+> Remember to refer to the [Annotation Specifications](./annotationSpecifications.md) as needed to adjust your annotations based on occlusions.
+    [!Person 2](./assets/person2.jpg)
+
+When you are done annotating frame 0, it should look like the below picture.
+    [!Frame 0](./assets/frame0.jpg)
+
+6. Now that all people in the frame are annotated, click `Save` to save the current annotations.
+   [!Save](./assets/save.jpg)
+7. Click on the double right arrow to increment the frame count by 10.
+    [!Frame 10](./assets/frame10.jpg)
+> Note: You will see that the initial bounding boxes are no longer properly placed.
+> The bounding boxes size and placement will need to be adjusted since this is a different frame,
+> and people have moved.
+> Also, by annotating every 10 frames, we are leveraging CVAT's interpolation feature.
+> The interpolation feature allows annotators to annotate key frames,
+> and then the frames between them will be interpolated automatically.
+> Each frame annotated is automatically denoted as a key frame with the star shown below.
+> [!Star](./assets/star.jpg)
+
+8. Adjust the bounding boxes for the frame so that they look similar to the picture below.
+    [!Frame 10 Annotated](./assets/frame10Annotated.jpg)
+9. Continue steps 1-7 for every 10 frames of the video annotated each person in the frame.
 
 #### TODO: Wrap up with how to export data annotations
+#### TODO: Add common gotcha's - save btw frames, how to switch outside property, N shortcut, edge cases: ppl outside of frame or partial ppl, last frame is not mult. of 10 
 
