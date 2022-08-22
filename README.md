@@ -29,7 +29,8 @@ Dare to strike gold and derive meaning out of your own raw data in this workshop
 2. Internet access
 
 ### Additional Resources
-Additional workshop resources and links may be found [here](./resources.md).
+1. Additional workshop resources and links may be found [here](./resources.md).
+2. Troubleshooting guide may be found [here](./troubleshooting.md).
 
 ### Takeaways
 1. Understand the challenges and basics of performing successful data annotations for visual data.
