@@ -124,6 +124,21 @@ When you are done annotating frame 0, it should look like the below picture.
     [!Frame 10 Annotated](./assets/frame10Annotated.jpg)
 9. Continue steps 1-7 for every 10 frames of the video annotated each person in the frame.
 
-#### TODO: Wrap up with how to export data annotations
+## Steps to follow once frames have been annotated
+1. Click `Tasks`.
+    [!Tasks](./assets/tasks.jpg)
+2. Open the `Annotate workshop footage` task.
+    [!Open task](./assets/openTask.jpg)
+3. Update the `Job Stage` to `validation`.
+   [!Validation](./assets/validation.jpg)
+4. Click `Tasks` again.
+    [!Tasks](./assets/tasks.jpg)
+5. Click on the three dots at the bottom right of the workshop task,
+and select to `Export task dataset`.
+    [!Export](./assets/export.jpg)
+6. Fill in the export details following the image below.
+    [!Export Details](./assets/exportDetails.jpg)
+> Note: You will now see the annotations downloaded to a zip folder in your Downloads folder.
+
 #### TODO: Add common gotcha's - save btw frames, how to switch outside property, N shortcut, edge cases: ppl outside of frame or partial ppl, last frame is not mult. of 10 
 
