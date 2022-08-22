@@ -62,8 +62,8 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
 
 5. Click on your newly created project and click on the blue `+` sign at the bottom right of it to create a new `task` for it.
     ![Create Task](./assets/screenshots/createTask.jpg)
-6. Create your tasks copying the details below and click submit on your task:
-    ![CVAT Task](./assets/screenshots/task.jpg)
+6. Create your task copying the details below and click submit on your task:
+    ![CVAT Task](./assets/screenshots/taskDetails.jpg)
     > Note: The test footage may be found [here](./assets/video/workshopFootage.mp4).
       You will use this video file for your annotation sample data.
       It may take a few seconds-minutes to upload the video footage pending the network bandwidth.
@@ -75,14 +75,13 @@ If this `task` does not show up, then allow a bit more time for the video to upl
 You should now see a `job` created by default for your `task`.
    ![Open task](./assets/screenshots/openTask.jpg)
 9. Under the `job` details, assign the `job` to your username as seen below.
-   ![CVAT Job](./assets/screenshots/jobDetails.jpg)
+   ![CVAT Job](./assets/screenshots/assignJob.jpg)
 10. Click on the `job #` that was created above.
+    ![Job Number](./assets/screenshots/jobNumber.jpg)
 This will take you to a screen where you can start data annotations.
 This is where you will use the supporting documents to perform your data annotations.
 Feel free to ask questions as needed during this time, and collaborate with those around you as you progress.
     ![Start Annotations](./assets/screenshots/startAnnotations.jpg)
-    ![Start Annotations](./assets/screenshots/startAnnotations.jpg)
-
 
 ## Steps to follow to perform data annotations for frame 0
 1. Hover over the rectangle shape on the left navigation bar, and select `Track`.
@@ -97,6 +96,7 @@ and click when you have included the bottom-rightmost part of your person.
 3. In the right most part of the CVAT UI, under the `Objects` tab, 
 you will leave `Identity` as `1`, and `Occlusion` as `0` as this is the first person we are creating a bounding box around.
 This person also has no occlusions impacting the bounding box.
+    ![Person Details](./assets/screenshots/personDetails.jpg)
 4. Once you have completed annotations for one person, then move onto the next person in the frame.
 5. Repeat steps 1-3 for each person going left to right in the frame.
 > Note: Since Person 2 is seated and we only see ~50% of their body, 
@@ -108,7 +108,7 @@ When you are done annotating frame 0, it should look like the below picture.
     ![Frame 0](./assets/screenshots/frame0.jpg)
 
 6. Now that all people in the frame are annotated, click `Save` to save the current annotations.
-   ![Save](./assets/./assets/screenshots/save.jpg)
+   ![Save](./assets/screenshots/save.jpg)
 7. Click on the double right arrow to increment the frame count by 10.
     ![Frame 10](./assets/screenshots/frame10.jpg)
 > Note: You will see that the initial bounding boxes are no longer properly placed.
