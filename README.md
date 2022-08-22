@@ -18,9 +18,9 @@ Dare to strike gold and derive meaning out of your own raw data in this workshop
 ### Agenda
 1. Intro - 5 minutes
 2. CVAT project [setup](./annotationSteps.md#steps-to-follow-to-create-an-annotation-project) - 10 minutes
-3. Review [annotation specifications](./annotationSpecifications.md) - 5 minutes
-4. Review [annotation best practices](./annotationQA.md) - 5 minutes
-5. Perform [annotations](./annotationSteps.md) - 30 minutes
+3. Read [annotations specifications](./annotationSpecifications.md). - 5 minutes
+4. Read [annotations best practices](./annotationBestPractices.md) - 5 minutes
+5. Follow the annotation [steps](./annotationSteps.md) to annotate video - 30 minutes
 6. Conclusion - 5 minutes
 7. Q & A - throughout
 
@@ -30,12 +30,6 @@ Dare to strike gold and derive meaning out of your own raw data in this workshop
 
 ### Additional Resources
 Additional workshop resources and links may be found [here](./resources.md).
-
-### Annotation Steps
-
-1. Read [Annotations Specifications supporting documentation](./annotationSpecifications.md).
-2. Read [Annotations QA supporting documentation](./annotationQA.md).
-3. Follow the [Annotations Steps](./annotationSteps.md).
 
 ### Takeaways
 1. Understand the challenges and basics of performing successful data annotations for visual data.

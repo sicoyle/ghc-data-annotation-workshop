@@ -11,7 +11,7 @@ This region will be excluded from annotations.
 In the case that ships pass by in the water with passengers on deck, 
 then we do not want them counted towards our data annotations.
 
-![Ignore Region](./assets/ignoreRegion.jpg)
+![Ignore Region](assets/screenshots/ignoreRegion.jpg)
 
 2. How precise should annotations be?
 
@@ -20,13 +20,13 @@ with 1-5% margin,
 or with >5% margin of boundaries.
 
 Option 1: Below is a very tight bounding box with little to no margin of error:
-![Tight Bounding Box](./assets/tightBoundingBox.jpg)
+![Tight Bounding Box](assets/screenshots/tightBoundingBox.jpg)
 
 Option 2: Below is a looser bounding box with a 1-5% margin of error:
-![Looser Bounding Box](./assets/looserBoundingBox.jpg)
+![Looser Bounding Box](assets/screenshots/looserBoundingBox.jpg)
 
 Option 3: Below is the loosest bounding box with a >5% margin of error:
-![Loosest Bounding Box](./assets/loosestBoundingBox.jpg)
+![Loosest Bounding Box](assets/screenshots/loosestBoundingBox.jpg)
 
 For the purposes of this workshop, Option 2 is suitable for our use case.
 Please utilize Option 2 for reference when performing your data annotations.
@@ -48,7 +48,7 @@ This is the `Identity` with which we will refer to this person throughout the du
 For these purposes, you may disregard the automatic `IDs` given to each of your annotations.
 In other words, please disregard the numbers by the red `X` in the image.
 
-![Identities](./assets/identity.jpg)
+![Identities](assets/screenshots/identity.jpg)
 
 4. How to annotate partial people?
 
