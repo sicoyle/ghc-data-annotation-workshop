@@ -18,7 +18,7 @@ Dare to strike gold and derive meaning out of your own raw data in this workshop
 ### Agenda
 1. Intro - 5 minutes
 2. CVAT project [setup](./annotationSteps.md#steps-to-follow-to-create-an-annotation-project) - 10 minutes
-3. Read [annotations specifications](./annotationSpecifications.md). - 5 minutes
+3. Read [annotations specifications](./annotationSpecifications.md) - 5 minutes
 4. Read [annotations best practices](./annotationBestPractices.md) - 5 minutes
 5. Follow the annotation [steps](./annotationSteps.md) to annotate video - 30 minutes
 6. Conclusion - 5 minutes

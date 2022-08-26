@@ -1,5 +1,11 @@
 # Workshop Annotation Steps
 
+# Overview
+1. [Background Information](#background-information)
+2. [Create Annotation Project](#steps-to-follow-to-create-an-annotation-project)
+3. [Perform Annotations](#steps-to-follow-to-perform-data-annotations)
+4. [Save Annotations](#steps-to-follow-once-frames-have-been-annotated)
+
 ## Background information
 CVAT projects have a hierarchy incorporating tasks and jobs.
 Annotation projects may have many annotation tasks and jobs.
