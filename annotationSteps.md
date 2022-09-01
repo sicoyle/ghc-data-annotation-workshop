@@ -30,7 +30,7 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
 3. Click the blue `+` sign to create a new project.
     ![CVAT Project](./assets/screenshots/createProject.jpg)
 4. Copy the details from the image below to fill out the project to be created. 
-      For the raw label data, copy/paste the data snipped below the picture.
+      For the raw label data, copy/paste the data snipped below the picture. These data represent the labels & their attributes.
    ![CVAT Project](./assets/screenshots/projectDetails.jpg)
 
     Raw Label data to copy/paste into the CVAT UI: 
