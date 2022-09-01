@@ -31,6 +31,7 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
     ![CVAT Project](./assets/screenshots/createProject.jpg)
 4. Copy the details from the image below to fill out the project to be created. 
       For the raw label data, copy/paste the data snipped below the picture. These data represent the labels & their attributes.
+      
    ![CVAT Project](./assets/screenshots/projectDetails.jpg)
 
     Raw Label data to copy/paste into the CVAT UI: 
@@ -106,7 +107,8 @@ and click when you have included the bottom-rightmost part of your person.
 you will leave `Identity` as `1`, and `Occlusion` as `0` as this is the first person we are creating a bounding box around.
 This person also has no occlusions impacting the bounding box.
     ![Person Details](./assets/screenshots/personDetails.jpg)
-4. Once you have completed annotations for one person, then move onto the next person in the frame.
+4. Once you have completed annotations for one person, then move onto the next person in the frame. Track bar (marked in red below) can be used to scroll through the frames one after the other.
+    ![Track Bar](./assets/screenshots/trackBar.jpg)
 5. Repeat steps 1-3 for each person going left to right in the frame.
 > Note: Since Person 2 is seated and we only see ~50% of their body, 
 > we will mark their `Occlusion` field as 1.
