@@ -19,7 +19,12 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
 
 ## Steps to follow to create an annotation project
 1. Create an account and login at [cvat.org](https://app.cvat.ai/).
-    ![CVAT Login Page](./assets/screenshots/cvatLoginPage.jpg)
+
+![CVAT Login Page](./assets/screenshots/cvatLoginPage.jpg)
+> While creating a new account, a valid email address is required. Tool requires email confirmation by clicking on the link sent to this email address
+
+
+
 2. Use the top navigation bar to click `Projects`.
     ![CVAT Project Tab](./assets/screenshots/projects.jpg)
 3. Click the blue `+` sign to create a new project.
