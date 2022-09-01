@@ -136,12 +136,19 @@ When you are done annotating frame 0, it should look like the below picture.
 9. Continue steps 1-7 for every 10 frames of the video annotated each person in the frame.
 
 ## Steps to follow once frames have been annotated
+
+The following steps are meant to demonstrate to workshop attendees that data annotations go beyond a one-person effort.
+Data annotation efforts may be reviewed by other team members, and even exported upon completion.
+
 1. Click `Tasks`.
     ![Tasks](./assets/screenshots/tasks.jpg)
 2. Open the `Annotate workshop footage` task.
     ![Open task](./assets/screenshots/openTask.jpg)
 3. Update the `Job Stage` to `validation`.
    ![Validation](./assets/screenshots/validation.jpg)
+> Note: This is an important step when participating in data annotations within a team environment.
+> Updating the stage from `annotation` to `validation` signals to others that the current annotations are ready for others to review.
+> Once they have been reviewed and adjusted as necessary, then the annotations may be marked `accepted`.
 4. Click `Tasks` again.
     ![Tasks](./assets/screenshots/tasks.jpg)
 5. Click on the three dots at the bottom right of the workshop task,
@@ -149,4 +156,11 @@ and select to `Export task dataset`.
     ![Export](./assets/screenshots/export.jpg)
 6. Fill in the export details following the image below.
     ![Export Details](./assets/screenshots/exportDetails.jpg)
-> Note: You will now see the annotations downloaded to a zip folder in your Downloads folder.
+> Note: You will now see the annotations downloaded to a zip folder in the Downloads folder.
+> The zip folder contains an annotations XML formatted file that encodes the annotated data. 
+> Different formats may be selected pending the format needed to train the specified model of choice.
+> More information may be found in the section on [Annotation Format](./annotationSpecifications.md#annotation-format).
+> The file contains tags corresponding to the project pieces created for this workshop
+> (ie `<task>`, `<labels>`, `<track>`, `<box>`). 
+> Those tags correspond to the task, label, and track ID, bounding box of the people annotated, etc.
+> This exported data is what would be used to train a model.

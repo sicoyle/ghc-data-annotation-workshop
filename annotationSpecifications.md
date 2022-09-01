@@ -12,17 +12,6 @@ The information below is meant to guide discussion and provide pointers and cons
 - Individuals should have the same identity if he/she/it/they appear/disappear several times throughout a video.
 - Don't annotate small or really blurry people.
 
-### Downsampling
-
-In Machine Learning, downsampling is when you reduce a dataset to a more manageable size.
-Downsampling an image in particular is where you reduce the number of pixels to create a smaller file size.
-This is helpful when dealing with resource constraints when using large amounts of input data. 
-
-- Original videos may be 4k at 60 Hz.
-- Videos should be downsampled to 1080p at 30Hz.
-- Annotations for every frame are required.
-Although, interpolation is allowed (ex: annotate every 10 frames and interpolate the rest).
-
 ### Annotation Format
 
 `CVAT` supports multiple annotation formats that may be found [here](https://openvinotoolkit.github.io/cvat/docs/manual/advanced/formats/).
