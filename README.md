@@ -3,7 +3,7 @@
 ### With Samantha Coyle & Neethu Elizabeth Simon, Intel Corporation
 
 ### Overview
-Computer Vision Annotation Tool, or [CVAT](https://cvat.org/auth/login) for short,
+Computer Vision Annotation Tool, or [CVAT](https://app.cvat.ai/auth/login) for short,
 is an Open Source tool used for labeling image and video data for computer vision algorithms.
 It is one of the most popular Open Source annotation tools out there and makes video annotations easier and faster.
 This workshop will use the online demo version of CVAT so that we don’t have to worry about any local software installations.
