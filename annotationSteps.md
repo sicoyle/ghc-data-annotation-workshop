@@ -18,10 +18,8 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
 ![CVAT Hierarchy](./assets/screenshots/hierarchy.jpg)
 
 ## Steps to follow to create an annotation project
-1. Create an account and login at [cvat.org](https://cvat.org/auth/login).
-    > Note: You may see a notification pop up that looks like the image below.
-        Please disregard and close the note.
-      ![CVAT Notice](./assets/screenshots/notice.jpg)
+1. Create an account and login at [cvat.org](https://app.cvat.ai/).
+    ![CVAT Login Page](./assets/screenshots/cvatLoginPage.jpg)
 2. Use the top navigation bar to click `Projects`.
     ![CVAT Project Tab](./assets/screenshots/projects.jpg)
 3. Click the blue `+` sign to create a new project.
