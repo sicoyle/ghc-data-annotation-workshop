@@ -14,9 +14,13 @@ The information below is meant to guide discussion and provide pointers and cons
 
 ### Annotation Format
 
-`CVAT` supports multiple annotation formats that may be found [here](https://openvinotoolkit.github.io/cvat/docs/manual/advanced/formats/).
+`CVAT` supports multiple annotation formats that may be found [here](https://opencv.github.io/cvat/docs/manual/advanced/formats/).
 
 - To be chosen by the annotator. One example is `CVAT` XML file schema/metadata.
+
+More information on the XML annotation format specifically may be found [here](https://opencv.github.io/cvat/docs/manual/advanced/xml_format/).
+The link describes the tags that are present in the XML, what they mean, 
+and demonstrates an annotation example using annotation boxes, polygons, etc.
 
 #### Person Tracking
 
