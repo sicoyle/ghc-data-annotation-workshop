@@ -112,6 +112,9 @@ This person also has no occlusions impacting the bounding box.
 5. Repeat steps 1-3 for each person going left to right in the frame.
 > Note: Since Person 2 is seated and we only see ~50% of their body, 
 > we will mark their `Occlusion` field as 1.
+> 
+> Also make sure to increment the number in `Identity` field for each new person. Refer to the point 3 in [Annotation Best Practices](./annotationBestPractices.md) for more details on this `Identity` field
+> 
 > Remember to refer to the [Annotation Specifications](./annotationSpecifications.md) as needed to adjust your annotations based on occlusions.
     ![Person 2](./assets/screenshots/person2.jpg)
 
