@@ -23,6 +23,7 @@ Option 1: Below is a very tight bounding box with little to no margin of error:
 ![Tight Bounding Box](./assets/screenshots/tightBoundingBox.jpg)
 
 Option 2: Below is a looser bounding box with a 1-5% margin of error:
+
 ![Looser Bounding Box](./assets/screenshots/looserBoundingBox.jpg)
 
 Option 3: Below is the loosest bounding box with a >5% margin of error:
