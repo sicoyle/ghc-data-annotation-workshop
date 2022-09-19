@@ -7,7 +7,6 @@ The information below is meant to guide discussion and provide pointers and cons
 ### General Comments
 
 - Only visible parts of people should be annotated.
-- Only a person's silhouette should be annotated.
 - Don't include bags, purses, baby carriages, shopping carts, etc. into a bounding box.
 - Individuals should have the same identity if he/she/it/they appear/disappear several times throughout a video.
 - Don't annotate small or really blurry people.
