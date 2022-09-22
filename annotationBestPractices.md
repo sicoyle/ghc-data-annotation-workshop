@@ -66,11 +66,11 @@ This field will ensure that the data annotations properly account for people as 
 
 6. If annotating every 10 frames, then how to account for the frame count not being evenly divisible by 10?
 
-The workshop footage contains `1092` frames.
+The workshop footage contains `1093` frames.
 Being that it is a video and people are being tracked, then it is acceptable to annotate every 10 frames.
 This is because CVAT knows to interpolate the frames between that are unannotated to automatically annotate them for us.
 If annotating every 10 frames, you will end up on frame `1090`.
-Go ahead and annotate the last frame numbered `1092`.
+Go ahead and annotate the last frame numbered `1093`.
 
 7. When to save annotation progress?
 
