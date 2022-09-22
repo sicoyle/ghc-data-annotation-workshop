@@ -18,7 +18,7 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
 ![CVAT Hierarchy](./assets/screenshots/hierarchy.jpg)
 
 ## Steps to follow to create an annotation project
-1. Create an account and login at [cvat.org](https://app.cvat.ai/).
+1. Create an account and login at [cvat.org](https://app.cvat.ai/auth/login).
 
 ![CVAT Login Page](./assets/screenshots/cvatLoginPage.jpg)
 > While creating a new account, a valid email address is required. Tool requires email confirmation by clicking on the link sent to this email address
