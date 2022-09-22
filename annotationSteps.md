@@ -100,8 +100,7 @@ and click when you have included the bottom-rightmost part of your person.
 you will leave `Identity` as `1`, and `Occlusion` as `0` as this is the first person we are creating a bounding box around.
 This person also has no occlusions impacting the bounding box.
     ![Person Details](./assets/screenshots/personDetails.jpg)
-4. Once you have completed annotations for one person, then move onto the next person in the frame. Track bar (marked in red below) can be used to scroll through the frames one after the other.
-    ![Track Bar](./assets/screenshots/trackBar.jpg)
+4. Once you have completed annotations for one person, then move onto the next person in the frame.
 5. Repeat steps 1-3 for each person going left to right in the frame.
 > Note: Since Person 2 is seated and we only see ~50% of their body, 
 > we will mark their `Occlusion` field as 1.
@@ -111,12 +110,15 @@ This person also has no occlusions impacting the bounding box.
 > Remember to refer to the [Annotation Specifications](./annotationSpecifications.md) as needed to adjust your annotations based on occlusions.
     ![Person 2](./assets/screenshots/person2.jpg)
 
-When you are done annotating frame 0, it should look like the below picture.
+When annotations are complete for frame 0, it should look like the below picture.
     ![Frame 0](./assets/screenshots/frame0.jpg)
 
 6. Now that all people in the frame are annotated, click `Save` to save the current annotations.
    ![Save](./assets/screenshots/save.jpg)
-7. Click on the double right arrow to increment the frame count by 10.
+7. The track bar (marked in red below) can be used to scroll through the frames one after the other.
+   ![Track Bar](./assets/screenshots/trackBar.jpg)
+
+   Click on the double right arrow to increment the frame count by 10.
     ![Frame 10](./assets/screenshots/frame10.jpg)
 > Note: You will see that the initial bounding boxes are no longer properly placed.
 > The bounding boxes size and placement will need to be adjusted since this is a different frame,
