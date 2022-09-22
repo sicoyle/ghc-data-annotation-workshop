@@ -18,7 +18,7 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
 ![CVAT Hierarchy](./assets/screenshots/hierarchy.jpg)
 
 ## Steps to follow to create an annotation project
-1. Create an account and login at [cvat.org](https://app.cvat.ai/).
+1. Create an account and login at [cvat.org](https://app.cvat.ai/auth/login).
 
 ![CVAT Login Page](./assets/screenshots/cvatLoginPage.jpg)
 > While creating a new account, a valid email address is required. Tool requires email confirmation by clicking on the link sent to this email address
@@ -108,6 +108,9 @@ This person also has no occlusions impacting the bounding box.
 5. Repeat steps 1-3 for each person going left to right in the frame.
 > Note: Since Person 2 is seated and we only see ~50% of their body, 
 > we will mark their `Occlusion` field as 1.
+> 
+> Also make sure to increment the number in `Identity` field for each new person. Refer to the point 3 in [Annotation Best Practices](./annotationBestPractices.md) for more details on this `Identity` field
+> 
 > Remember to refer to the [Annotation Specifications](./annotationSpecifications.md) as needed to adjust your annotations based on occlusions.
     ![Person 2](./assets/screenshots/person2.jpg)
 
