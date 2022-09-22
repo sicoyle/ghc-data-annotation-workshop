@@ -29,10 +29,7 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
     ![CVAT Project Tab](./assets/screenshots/projects.jpg)
 3. Click the blue `+` sign and then `Create a new project`.
     ![CVAT Project](./assets/screenshots/createProject.jpg)
-    ![CVAT Project2](./assets/screenshots/createProject2.jpg)
-4. Click `Create a new project`
-    ![CVAT New Project](./assets/screenshots/createProject2.jpg)
-5. Copy the details from the image below to fill out the project to be created and select `Submit & Open`. 
+4. Copy the details from the image below to fill out the project to be created and select `Submit & Open`. 
       For the raw label data, copy/paste the data snipped below the picture. These data represent the labels & their attributes.
       
    ![CVAT Project](./assets/screenshots/projectDetails.jpg)
@@ -73,16 +70,16 @@ Jobs allow you to split up tasks by frame to divvy up the annotations among a te
 ```
 > Note: For more information on the labels used for the workshop, please refer to the [Annotation Specifications Doc](./annotationSpecifications.md).
 
-6. Click on your newly defined project and click on the blue `+` sign at the bottom right of it to create a new `task` for it.
+5. Click the blue `+` sign at the bottom right of the newly created project to create a new `task` for it.
     ![Create Task](./assets/screenshots/createTask.jpg)
-7. Create your task copying the details below and click `Submit & Open` on your task:
+6. Create your task copying the details below and click `Submit & Open` on your task:
     ![CVAT Task](./assets/screenshots/taskDetails.jpg)
     > Note: The test footage may be found [here](./assets/video/workshopFootage.mp4).
       You will use this video file for your annotation sample data.
       It may take a few seconds-minutes to upload the video footage pending the network bandwidth.
-8. Under the `job` details, assign the `job` to your username as seen below.
+7. Under the `job` details, assign the `job` to your username as seen below.
    ![CVAT Job](./assets/screenshots/assignJob.jpg)
-9. Click on the `job #` that was created above.
+8. Click on the `job #` that was created above.
     ![Job Number](./assets/screenshots/jobNumber.jpg)
 This will take you to a screen where you can start data annotations.
 This is where you will use the supporting documents to perform your data annotations.
